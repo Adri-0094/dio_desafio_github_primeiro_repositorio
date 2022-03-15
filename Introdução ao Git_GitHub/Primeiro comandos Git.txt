@@ -1,0 +1,17 @@
+Iniciar o GIT - git init
+Iniciar o versionamento - git add
+Criar um commit - git commit
+
+ls -a (mostra pastas ocultas)
+
+git config --glogal (para configurar as informações de user(autor))
+
+git config --glogal user.email ""(inserir email)
+
+git config --glogal user.name "Adriana"(inserir nome)
+
+salvo arquino na pasta para inserir receita, para abri-lo para edição baixei o programa Typora, para já mostrar as formatações inseridas.
+
+git add * 
+
+git commit -m "commit inicial" (são objetos de Git que dão significados as movimentações)

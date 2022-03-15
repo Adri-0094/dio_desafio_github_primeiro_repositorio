@@ -1,0 +1,13 @@
+Exemplo de erro aprensentado:
+No caso apresentado pelo instrutor acusa um erro devido o arquivo que ele alterou na maquina local ao tentar fazer o push o GitHub identificou que não é o atualizado que consta no GitHub(outra pessoa modificou o arquivo que ainda não consta no local), para isso ele precisa integrar as alterações antes de empurrar os dados do arquivo dele. 
+
+Para isso precisa ao inves de empurrar(push) ele precisa puxar(pull) os arquivos, integra-los e depois executar o push.
+
+git pull origin master (código para puxar os arquivos)
+**********************************************************
+No GitHub podemos pegar códigos para utilizar ou contribuir com a pessoa, entrando no repositório, na opção de code(fica em cima dos arquivos). Para usar no terminal pegamos a URL.
+
+código:
+git clone cola url.
+
+

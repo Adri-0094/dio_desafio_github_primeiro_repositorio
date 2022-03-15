@@ -1,0 +1,18 @@
+SHA1
+A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA(Agência de Segurança Nacional dos EUA).
+
+Pega um arquivo e embaralha os fragmentos. A encriptação gera conjuntos de caracteres indentificador de 40 dígitos.
+Exemplo, comando:
+openssl sha1 (nome arquivo)
+
+Ojetos fundamentais:
+Mudança em cadeia.
+BLOBS - Contem o tipo de objeto, tamanho do arquivo, e as informações de Sha1. Encapsula o comportamento de diretorios, usada para aponta para diretorios e pode apontar para arquivos.
+TREES - armazena os blobs, também contem metadados, armazena o nome do arquivo. Apontam para blob, ou outras trees que podem apontar para outras blob.
+COMMIT -  objeto que junta os metadados e da significado para as alterações. Também contem o SHA1.
+
+Sistema distuibuido
+Há distribuição.
+
+Segurança
+Devido a criptografia, se cria um sistema confiavel de armazenamento.

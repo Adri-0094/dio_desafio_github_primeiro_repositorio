@@ -1,0 +1,26 @@
+Ciclos de vida dos arquivos no GIT
+
+GIT init
+
+Cria-se um repositório no GIT dentro da pasta usada.
+
+Tracked- o Git possui ciência dos arquivos. 
+Divido em:
+
+Unmodified - arquivos ainda que não foram modificados.
+Modified - arquivos que sofreram alguma modificação.
+Staged- area onde ficam os arquivos que estão se preparando para poder fazer parte de outro agrupamento.
+
+Untracked-o Git não possui ciência desses arquivos.
+
+Respositórios:
+Respositório de Trabalho onde consta os arquivos que estamos trabalhando, e conforme as modificações e/ou criações de arquivos, os arquivos se alteram entre Respositório de Trabalho e Stage area, quando se faz o commit os arquivos passam para o repositório local podendo passar para o Repositório remoto.
+Repositório local somente feito atraves de commit.
+
+git status - mostra em qual ciclo está o arquivo.
+comando mv para mudar o arquivo de pasta:
+exemplo: mv strogonoff.md ./receitas (moveu o arquivo da pasta de livro-receitas
+para a pasta criada receitas )
+
+git add * (adiciona todos os arquivos que estavam como Untracked para o Stage)
+
